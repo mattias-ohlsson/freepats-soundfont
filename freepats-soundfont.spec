@@ -1,5 +1,5 @@
 Name:           freepats-soundfont
-Version:        20191001
+Version:        20200216
 Release:        1%{?dist}
 Summary:        General MIDI SFZ/SF2 sound set
 
@@ -57,5 +57,8 @@ cp -a FreePatsGM-SFZ-%{version}/samples $RPM_BUILD_ROOT%{_datadir}/soundfonts/fr
 %{_datadir}/soundfonts/freepats-gm
 
 %changelog
+* Fri Mar 13 2020 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 20200216-1
+- Update to 20200216
+
 * Fri Jan 24 2020 Mattias Ohlsson <mattias.ohlsson@inprose.com> - 20191001-1
 - Initial build
